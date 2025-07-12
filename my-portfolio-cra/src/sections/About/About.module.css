@@ -1,0 +1,47 @@
+/* src/sections/About/About.module.css */
+
+.aboutSection {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #bb86fc, #6200ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.bio {
+  font-size: 1.5rem;
+  color: #cfcfcf;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* --- НОВЫЙ КОД ДЛЯ АДАПТИВНОСТИ --- */
+@media (max-width: 768px) {
+  .name {
+    font-size: 2.5rem; /* Уменьшаем заголовок на мобильных */
+  }
+
+  .bio {
+    font-size: 1.2rem; /* Уменьшаем подзаголовок */
+  }
+
+  .aboutSection {
+    padding: 40px 15px; /* Уменьшаем отступы секции */
+  }
+}

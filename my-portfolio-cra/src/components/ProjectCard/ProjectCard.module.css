@@ -1,0 +1,27 @@
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 350px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+  color: #bb86fc;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.card a {
+  font-weight: bold;
+}

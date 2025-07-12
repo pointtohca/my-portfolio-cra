@@ -1,0 +1,31 @@
+.footer {
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 60px;
+}
+
+.socialLinks {
+  margin-bottom: 20px;
+}
+
+/* Стилизуем сами ссылки (теперь в них иконки) */
+.socialLinks a {
+  margin: 0 15px;
+  font-size: 1.8rem; /* Увеличиваем размер иконок */
+  color: #bb86fc; /* Задаем базовый цвет */
+  display: inline-block; /* Нужно для правильной работы transform */
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease; /* Добавляем transform в анимацию */
+}
+
+/* Эффект при наведении */
+.socialLinks a:hover {
+  color: #fff; /* Меняем цвет на белый */
+  transform: scale(1.15); /* Немного увеличиваем иконку */
+}
+
+.copyright {
+  color: #888;
+}

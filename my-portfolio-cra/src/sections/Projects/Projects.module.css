@@ -1,0 +1,34 @@
+.projectsSection {
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .projectsSection {
+    padding: 40px 15px;
+  }
+
+  .projectsGrid {
+    gap: 20px;
+  }
+}
