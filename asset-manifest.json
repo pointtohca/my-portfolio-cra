@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-cra/static/css/main.169ca833.css",
+    "main.js": "/my-portfolio-cra/static/js/main.888d3c02.js",
+    "index.html": "/my-portfolio-cra/index.html",
+    "main.169ca833.css.map": "/my-portfolio-cra/static/css/main.169ca833.css.map",
+    "main.888d3c02.js.map": "/my-portfolio-cra/static/js/main.888d3c02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.169ca833.css",
+    "static/js/main.888d3c02.js"
+  ]
+}
